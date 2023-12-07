@@ -29,6 +29,10 @@
 #### A web application framework for Node.js. It simplifies the process of building robust, scalable, and maintainable web applications by providing a set of features and tools.
 ####mongoose:
 
+####jest
+####for testing
+####jest --coverage
+
 #### An ODM (Object Data Modeling) library for MongoDB and Node.js. It simplifies interactions with MongoDB databases by providing a schema-based solution for modeling application data.
 morgan:
 
