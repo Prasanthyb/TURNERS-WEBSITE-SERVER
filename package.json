@@ -5,9 +5,13 @@
   "scripts": {
     "start": "nodemon ./bin/www",
     "import": "node seedData.js -i",
-    "remove": "node seedData.js -d",
-    "test": "jest"
+    "delete": "node seedData.js -d",
+    "delete-user": "node seedData.js -d",
+    "add-user": "node seedData.js -a",
+    "modify-user": "node seedData.js -m",  
+    "test": "jest --coverage"
   },
+  
   "dependencies": {
     "@azure/cognitiveservices-computervision": "^8.2.0",
     "@azure/ms-rest-azure-js": "^2.1.0",
